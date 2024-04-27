@@ -1,4 +1,4 @@
-import { IUser } from 'src/interfaces/user.interface';
+import { IUser } from '../../interfaces/user.interface';
 import { users } from './userlist';
 
 const userTable: IUser[] = [];

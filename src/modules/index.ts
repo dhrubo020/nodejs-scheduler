@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
   res.status(200).send({ sucess: true });
 });
 
-router.get('/customer', getUser);
-router.post('/customer/register', register);
+router.get('/customers', getUser);
+router.post('/customers/register', register);
 
 export { router };
