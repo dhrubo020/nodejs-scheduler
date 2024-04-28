@@ -7,6 +7,8 @@ router.get('/', (req, res) => {
   res.status(200).send({ sucess: true });
 });
 
+// we can use api prefix and version like /api/v1/customers
+
 // get list of all user
 router.get('/customers', getUser);
 
