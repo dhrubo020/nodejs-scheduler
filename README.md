@@ -21,7 +21,15 @@ The goal is to send email to customers on their birthdays.
    npm install
    ```
 
-3. **Run the project**
+3. **Build the project**
+
+   ```bash
+     yarn build
+     or
+     npm run build
+   ```
+
+4. **Run the project**
 
    ```bash
      yarn start
